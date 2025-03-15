@@ -10,3 +10,6 @@ Route::get('/home', function () {
     return view('home');
 });
 
+Route::get('/sobrenos', function () {
+    return view('sobrenos');
+});
